@@ -1,0 +1,2 @@
+command:	cv.py -bd outfile-genereg --start_label_count 10 -ad outfile-top2500 -ps 100 --folds 5 --jsre /Users/sselent/Thesis/Master-Thesis/ppi-benchmark/Kernels/jsre/source
+random seeds per fold:	[(0, 1957), (1, 3113), (2, 1986), (3, 4263), (4, 8837)]

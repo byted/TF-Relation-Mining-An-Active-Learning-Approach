@@ -1,0 +1,52 @@
+genereg2 -> top2rev
+
+genereg -> top2rev:     72.2
+genereg2 -> top2rev:    68
+genereg -> top:         72.3
+genereg2 -> top:        70.3
+
+5% diff when using genereg2
+
+hypo: due to including more than src and target as entities
+test: genereg2* without these additional entities
+
+genereg2annos -> top    68.9
+genereg2annos -> top2rev    66.7
+↯↯
+
+-------------------------
+
+hypo: richtung der relation egal -> src ist immer vor target im satz
+
+cc-cv   genereg_da => top_da:   80.3 - 0.018
+cc-cv   genereg_da2 => top_da:  80.4 - 0.015
+cc-cv   genereg_das => top_da:  80.2 - 0.02
+cc-cv   genereg_da2s => top_da: 80.1 - 0.018
+
+cc      genereg_da => top_da:   74.2    2045/2241 pos
+cc      genereg_das => top_da:  73.0    1961/2241 pos
+cc      genereg_da2 => top_da:  72.8    1950/2241 pos
+cc      genereg_da2s => top_da: 74.4    2013/2241 pos
+
+
+cv      genereg_das:            87.9
+cv      genereg_da2s:           87.7
+cv      top_da:                 80.07 - 0.019
+
+self    genereg_da              94.8
+self    genereg_da2             95.2
+self    genereg_das             95.1
+self    genereg_da2s            94.9
+self    top_da                  92.0
+
+------
+
+
+------
+
+cc-cv   genreg_old => top_old
+cc      genreg_old => top_old   72.5
+cv      genreg_old           
+cv      top_old                 
+self    genreg_old              95.2
+self    top_old                 92.1

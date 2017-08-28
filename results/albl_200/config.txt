@@ -1,0 +1,2 @@
+command:	active_learn.py -bd ../preprocessed_training_data/genereg_direction_agnostic_sorted.jsre -ad ../preprocessed_training_data/top2241_direction_agnostic.jsre -r 200 -f 3 -ps 1174 --jsre ../resources/jsre --suffix albl_200 --random-seeds 8057 1204 3439 --query_strategies albl
+random seeds per fold:	[8057, 1204, 3439]

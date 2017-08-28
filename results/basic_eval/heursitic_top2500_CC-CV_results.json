@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "commands": "basic_cv.py -b ../preprocessed_training_data/genereg_direction_agnostic_sorted.jsre -d ../preprocessed_training_data/top2500_heuristic.jsre -f 10 --jsre ../resources/jsre --suffix heursitic_top2500_CC-CV"
+  },
+  "avg": 0.19242430758892143,
+  "min": 0.14741035856573703,
+  "max": 0.2168674698795181,
+  "stdev": 0.02500297862068229,
+  "scores": [
+    0.20318725099601598,
+    0.14741035856573703,
+    0.21513944223107573,
+    0.16000000000000003,
+    0.16799999999999993,
+    0.19199999999999984,
+    0.21200000000000008,
+    0.2168674698795181,
+    0.2088353413654619,
+    0.20080321285140568
+  ]
+}

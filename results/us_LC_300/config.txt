@@ -1,0 +1,2 @@
+command:	active_learn.py -bd ../preprocessed_training_data/genereg_direction_agnostic_sorted.jsre -ad ../preprocessed_training_data/top2241_direction_agnostic.jsre -r 300 -f 5 -ps 1174 --jsre ../resources/jsre --suffix uc_lc_300 --random-seeds 8057 1204 3439 4269 9199
+random seeds per fold:	[8057, 1204, 3439, 4269, 9199]

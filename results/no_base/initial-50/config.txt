@@ -1,0 +1,2 @@
+command:	active_learn.py -ad ../preprocessed_training_data/top2241_direction_agnostic.jsre -r 500 -ps 1174 -f 5 --query_strategies us_ENTROPY --start_label_count 50 --random-seeds 8057 1204 3439 4269 9199 --jsre ../resources/jsre --suffix no_base_50_initial
+random seeds per fold:	[8057, 1204, 3439, 4269, 9199]

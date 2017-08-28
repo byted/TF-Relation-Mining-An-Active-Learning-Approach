@@ -1,0 +1,2 @@
+command:	cv.py -bd outfile-genereg -ad outfile-top2500 -ps 1000 --rounds 200 --folds 3 --jsre /Users/sselent/Thesis/Master-Thesis/ppi-benchmark/Kernels/jsre/source --suffix second_run_UC_RND
+random seeds per fold:	[(0, 2993), (1, 3986), (2, 3584)]

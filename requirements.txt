@@ -1,0 +1,9 @@
+pygal
+nltk
+bllipparser
+scikit-learn
+cairosvg
+tqdm
+numpy
+scipy
+matplotlib

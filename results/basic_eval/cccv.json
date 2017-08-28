@@ -1,0 +1,21 @@
+{
+  "max": 0.2366071428571429,
+  "metadata": {
+    "commands": "basic_cv.py -f 10 -d ../preprocessed_training_data/top2241_direction_agnostic.jsre -b ../preprocessed_training_data/genereg_direction_agnostic_sorted.jsre --jsre ../resources/jsre/ --suffix genereg_sorted_cccv -m /tmp/cccvsorted.model"
+  },
+  "avg": 0.19812456402590933,
+  "min": 0.1741071428571429,
+  "scores": [
+    0.1955555555555556,
+    0.19999999999999996,
+    0.1955555555555556,
+    0.2276785714285714,
+    0.1741071428571429,
+    0.1875,
+    0.1741071428571429,
+    0.2366071428571429,
+    0.18834080717488788,
+    0.2017937219730942
+  ],
+  "stdev": 0.020403714570012565
+}

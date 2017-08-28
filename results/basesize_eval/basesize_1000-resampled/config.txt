@@ -1,0 +1,2 @@
+command:	active_learn.py -bd ../preprocessed_training_data/genereg_direction_agnostic_sorted.jsre -ad ../preprocessed_training_data/top2241_direction_agnostic.jsre -r 250 -ps 1174 -f 3 --jsre ../resources/jsre --suffix base_size_1000-resampled --subsample-base 1000 --query_strategies us_ENTROPY
+random seeds per fold:	[6739, 7658, 2418]

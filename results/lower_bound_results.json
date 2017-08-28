@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "commands": "basic_cv.py -b ../preprocessed_training_data/genereg_direction_agnostic_sorted.jsre -d ../preprocessed_training_data/top2241_direction_agnostic.jsre -f 10 --jsre ../resources/jsre --suffix test2fold --testset_size 1067"
+  },
+  "avg": 0.21668228678537957,
+  "min": 0.20243673851921273,
+  "max": 0.22492970946579194,
+  "stdev": 0.007416513952251873,
+  "scores": [
+    0.22118088097469557,
+    0.219306466729147,
+    0.218369259606373,
+    0.218369259606373,
+    0.20712277413308344,
+    0.20243673851921273,
+    0.22492970946579194,
+    0.21087160262417992,
+    0.2239925023430177,
+    0.22024367385192123
+  ]
+}

@@ -1,0 +1,19 @@
+# Labeling process of top 2500
+
+* no simple labeling, just TP, FP and NN from output of old classifier
+* reduce to 0/1 for evaluation
+
+`
+label == TP ->   1
+label == FP ->   0
+label == NN ->   1 if details == 'cooperation/competition in transcription'
+        0 else
+`
+That works with the numbers from the paper:
+`
+2500 gesamt
+2500-1625 = 875 in databases und TP
+660 additional TP
+322 cooperative/competition -> NN &&? 'cooperation/competition in transcription'
+643 FP
+`

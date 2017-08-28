@@ -1,0 +1,2 @@
+command:	active_learn.py -bd ../preprocessed_training_data/genereg_direction_agnostic_sorted.jsre -ad ../preprocessed_training_data/top2241_direction_agnostic.jsre -r 1 -ps 1174 -f 10 --query_strategies random us_ENTROPY qbc_KL albl --jsre ../resources/jsre --suffix durations
+random seeds per fold:	[4043, 9001, 1737, 3305, 972, 7316, 5275, 795, 2354, 4614]

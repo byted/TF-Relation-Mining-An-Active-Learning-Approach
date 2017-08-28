@@ -1,0 +1,2 @@
+command:	active_learn.py -bd ../preprocessed_training_data/genereg_direction_agnostic_sorted.jsre -ad ../preprocessed_training_data/top2241_direction_agnostic.jsre -r 500 -f 5 -ps 1174 --jsre ../resources/jsre --suffix new_preprocess_500_rs_use
+random seeds per fold:	[(0, 8057), (1, 1204), (2, 3439), (3, 4269), (4, 9199)]
